@@ -1,10 +1,11 @@
 
 def life_main():
-    life = [1,2,4,6,28,42,88]
+    life = [1,2,88,42,99]
     result = ''
     for n in life:
-        result += '%d\n'%n
         if n == 42:
-            return result
+            break
+        result += '%d\n'%n
+    return result
     
     
